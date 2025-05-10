@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{csrfToken}}">
+    <title>Solis-Singh</title>
+    <link rel="stylesheet" href="basic-style.css">
+    <link rel="stylesheet" href="custom-style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <span class="logo-text">Solis-Singh</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume">Resume</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1 class="glitch-text" data-text="Hello, I'm">Hello, I'm</h1>
+            <h2 class="name">SURAJ PRAKASH</h2>
+            <div class="typing-text">
+                <span class="text"></span>
+                <span class="typing-cursor">|</span>
+            </div>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <a href="#resume" class="btn btn-secondary">View Resume</a>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/Solis-Singh" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/solis-singh" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/Solis_Singh" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/yourusername" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content fade-in">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/20250328_181557.jpg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I am a passionate developer with expertise in full-stack development. I love creating clean, efficient, and user-friendly applications.</p>
+                    <p>My journey in programming started with HTML, CSS, and JavaScript, and I've expanded my skills to include various frameworks and technologies.</p>
+                    <p>When I'm not coding, I enjoy watching movies.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-user"></i></span>
+                            <span class="detail-text">SURAJ PRAKASH</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-envelope"></i></span>
+                            <span class="detail-text">solissingh@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span class="detail-text">Bihar, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i class="fas fa-briefcase"></i></span>
+                            <span class="detail-text">Available for Freelance: Yes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container fade-in">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML5</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS3</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h4>Java</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Node.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Express.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Database</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>SQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Other Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-android"></i></div>
+                            <h4>Android Studio</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                            <h4>Git</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-filter fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Project One</h3>
+                        <p class="project-description">A responsive website built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Project Two</h3>
+                        <p class="project-description">A MERN stack application with full CRUD functionality.</p>
+                        <div class="project-tech">
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card fade-in" data-category="mobile">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Project Three</h3>
+                        <p class="project-description">An Android application built with Java.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Android Studio</span>
+                            <span>XML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Resume</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="resume-content fade-in">
+                <div class="resume-overview">
+                    <p>As a fresh graduate, I am passionate about technology and eager to apply my academic knowledge in a professional setting. Here's an overview of my education, skills, and achievements.</p>
+                    <a href="#" class="btn btn-primary download-btn">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                <div class="resume-sections">
+                    <!-- Fresher Section -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">Career Objective</h3>
+                        <div class="resume-item">
+                            <p>A motivated and enthusiastic Computer Science graduate seeking opportunities to leverage my technical skills and academic knowledge in a challenging role. Eager to contribute to innovative projects while continuously learning and growing in the field of software development.</p>
+                        </div>
+                    </div>
+
+                    <!-- Academic Achievements -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">Academic Achievements</h3>
+                        <div class="resume-item">
+                            <h4>Academic Excellence</h4>
+                            <ul class="resume-list">
+                                <li>Graduated with First Class in MCA</li>
+                                <li>Dean's List for Academic Excellence (2022-2025)</li>
+                                <li>Best Project Award for Final Year Project</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Technical Projects</h4>
+                            <ul class="resume-list">
+                                <li>Developed a responsive e-commerce website using MERN stack</li>
+                                <li>Created a machine learning model for sentiment analysis</li>
+                                <li>Built a mobile application for student attendance tracking</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Internships & Training -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">Internships & Training</h3>
+                        <div class="resume-item">
+                            <h4>MERN Stack Training</h4>
+                            <p class="resume-date">Summer 2025</p>
+                            <p class="resume-company">Offline By GRAStech</p>
+                            <ul class="resume-list">
+                                <li>Completed comprehensive training in MERN Stack web development</li>
+                                <li>Built multiple projects using these technologies</li>
+                                <li>Earned certification in MERN Stack web development</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education Section (Existing) -->
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Master's in Computer Applications</h4>
+                            <p class="resume-date">2022 - 2025</p>
+                            <p class="resume-company">L.N. MISHRA COLLEGE OF BUSINESS MANAGEMENT (BRABU MUZAFFARPUR)</p>
+                            <ul class="resume-list">
+                                <li>Major: Computer Science</li>
+                                <li>CGPA: Ongoing Last Semester</li>
+                                <li>Relevant Coursework: Data Structures, Algorithms, Web Development, Database Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>solissingh@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+91 7370075093</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>MUZAFFARPUR, BIHAR, INDIA</p>
+                        </div>
+                    </div>
+                    <div class="contact-social fade-in">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/Solis-Singh" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/solis-singh" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com/Solis_Singh" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/yourusername" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Solis-Singh</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Solis-Singh" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/solis-singh" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Solis_Singh" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Suraj Prakash . All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification -->
+    <div class="notification">
+        <i class="fas fa-check-circle"></i>
+        <div class="notification-content">
+            <div class="notification-title">Success</div>
+            <div class="notification-message">Message sent successfully!</div>
+        </div>
+        <div class="notification-progress">
+            <div class="notification-progress-bar"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <!-- Contact Form Handler -->
+    <script>
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = contactForm.querySelector('.submit-btn');
+        const notification = document.querySelector('.notification');
+        const notificationTitle = notification.querySelector('.notification-title');
+        const notificationMessage = notification.querySelector('.notification-message');
+        const notificationIcon = notification.querySelector('i');
+        const notificationProgressBar = notification.querySelector('.notification-progress-bar');
+
+        function showNotification(type, title, message, duration = 5000) {
+            // Reset notification state
+            notification.classList.remove('success', 'error');
+            notificationIcon.classList.remove('fa-check-circle', 'fa-times-circle');
+            
+            // Set notification type
+            notification.classList.add(type);
+            notificationIcon.classList.add(type === 'success' ? 'fa-check-circle' : 'fa-times-circle');
+            
+            // Set content
+            notificationTitle.textContent = title;
+            notificationMessage.textContent = message;
+            
+            // Show notification
+            notification.classList.add('show');
+            
+            // Animate progress bar
+            notificationProgressBar.style.transition = `width ${duration}ms linear`;
+            notificationProgressBar.style.width = '100%';
+            
+            setTimeout(() => {
+                notificationProgressBar.style.width = '0%';
+            }, 100);
+            
+            // Hide notification after duration
+            setTimeout(() => {
+                notification.classList.remove('show');
+                setTimeout(() => {
+                    notificationProgressBar.style.transition = 'none';
+                    notificationProgressBar.style.width = '100%';
+                }, 500);
+            }, duration);
+        }
+
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Disable submit button and show loading state
+            submitBtn.disabled = true;
+            const originalBtnText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            try {
+                // Send form data to backend
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    // Show success notification
+                    showNotification('success', 'Success!', 'Your message has been sent successfully.');
+                    contactForm.reset();
+                } else {
+                    throw new Error(data.error || 'Failed to send message');
+                }
+            } catch (error) {
+                // Show error notification
+                showNotification('error', 'Error!', error.message || 'Failed to send message. Please try again.');
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnText;
+            }
+        });
+    </script>
+</body>
+</html> 
