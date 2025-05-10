@@ -1,4 +1,4 @@
-# Solis-Singh Portfolio Website
+# Portfolio Website
 
 A modern, responsive portfolio website showcasing my work, skills, and professional journey as a full-stack developer.
 
@@ -122,9 +122,8 @@ The website is fully responsive and works on:
 ## 📞 Contact
 
 For any queries or suggestions, feel free to reach out:
-- Email: [your.email@example.com]
+- Email: solissingh@gmail.com]
 - LinkedIn: [Solis-Singh](https://linkedin.com/in/solis-singh)
-- Twitter: [@Solis_Singh](https://twitter.com/Solis_Singh)
 
 ---
 ⭐️ If you like this project, please give it a star on GitHub!
