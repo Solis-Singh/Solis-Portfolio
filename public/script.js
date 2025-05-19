@@ -69,11 +69,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Sticky Header
     const header = document.querySelector('header');
+    const resumeOverview = document.querySelector('.resume-overview');
+    
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
             header.classList.add('sticky');
         } else {
             header.classList.remove('sticky');
+        }
+
+        // Resume overview sticky effect
+        if (resumeOverview) {
+            const resumeSection = document.querySelector('#resume');
+            if (resumeSection) {
+                const resumeTop = resumeSection.offsetTop;
+                const resumeBottom = resumeTop + resumeSection.offsetHeight;
+                const scrollPosition = window.scrollY + 100; // Adding offset for better trigger point
+
+                if (scrollPosition >= resumeTop && scrollPosition <= resumeBottom) {
+                    resumeOverview.classList.add('sticky');
+                } else {
+                    resumeOverview.classList.remove('sticky');
+                }
+            }
         }
     });
 

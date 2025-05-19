@@ -231,6 +231,10 @@
     .hamburger {
         display: flex;
     }
+
+    .resume-overview {
+        position: static;
+    }
     
     nav {
         position: fixed;
@@ -279,6 +283,10 @@
     .hamburger {
         display: flex;
     }
+
+    .resume-overview {
+        position: static;
+    }
     
     nav {
         position: fixed;
@@ -317,6 +325,10 @@
     
     header.sticky {
         padding: 10px 20px;
+    }
+    
+    .resume-overview {
+     position: static;
     }
     
     .hero-text h1 {

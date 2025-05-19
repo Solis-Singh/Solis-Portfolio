@@ -645,6 +645,27 @@ nav ul li {
     position: sticky;
     top: 100px;
     height: fit-content;
+    transition: all 0.3s ease;
+}
+
+.resume-overview.sticky {
+    background: rgba(164, 227, 209, 0.95);
+    color: black;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--primary-color);
+    animation: stickyResume 0.3s ease;
+}
+
+@keyframes stickyResume {
+    from {
+        transform: translateY(-20px);
+        opacity: 0.8;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .download-btn {
